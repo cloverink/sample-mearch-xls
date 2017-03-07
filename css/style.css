@@ -1,0 +1,11 @@
+* { outline: none; }
+
+body { margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 12px; letter-spacing: 1px; }
+
+form { width: auto; display: block; margin: 20px auto 0; max-width: 400px; }
+form > div { display: block; background: #eee; padding: 20px; }
+form > div + div { padding-top: 0px; }
+form > div > label { display: inline-block; min-width: 100px; text-align: right; padding-right: 20px; font-weight: 600; }
+form input[type=submit] { display: block; width: 100%; padding: 10px; cursor: pointer; }
+
+#dvSample { width: auto; display: block; margin: 20px auto 0; max-width: 400px; }
